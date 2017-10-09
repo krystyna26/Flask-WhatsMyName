@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <title>What's my name?</title>
+</head>
+<body>
+        <form action='/process' method='post'>
+            Your name: <input type='text' name='name'>
+            <input type='submit' value='create user'>
+        </form>
+</body>
+</html>
